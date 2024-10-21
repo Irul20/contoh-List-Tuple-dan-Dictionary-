@@ -1,0 +1,16 @@
+# membuat list yang dinamakan distionary
+my_list = {
+    "nama"   : "irul",
+    "umur"   :  18,
+    "status" :  "mahasiswa"
+}
+#mencetak hasil distionary
+print(my_list["nama"])
+print(my_list["umur"])
+print(my_list["status"])
+
+#menambahkan pasangan atau elemen baru
+my_list["kota"] = "bima"
+
+#menampilkan hasil setelah di tambahkan
+print(my_list)
